@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body, html {
+    height: 100%;
+}
+
+nav {
+    width: 100%;
+    background-color: #3b4949;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#site-heading {
+    font-size: 2.5em;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 16px 0;
+}
+
+main {
+    padding: 3em;
+    background-color: bisque;
+}
+
+.content-container {
+    width: 70%;
+    max-width: 1140px;
+    margin: auto;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    padding: 24px;
+    background-color: white;
+}
+
+.main-para {
+    font-size: 18px;
+    text-align: justify;
+    margin: 20px 0;
+}
+
+/* .section-para {
+    background-color: #f2f6f6;
+} */
+
+.section-para p {
+    font-size: 18px;
+    margin: 20px 0;
+    text-align: justify;
+}
+
+.parallax-container {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    opacity: 0.8;
+}
+
+#parallax-1 {
+    background-image: url(https://images.unsplash.com/photo-1534142499731-a32a99935397?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80);
+}
+
+#parallax-2 {
+    background-image: url(https://images.unsplash.com/photo-1563201938-8aec7c71203a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80);
+    height: 300px;
+}
+
+#parallax-3 {
+    background-image: url(https://images.unsplash.com/photo-1482569020076-99150e41169b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80);
+}
