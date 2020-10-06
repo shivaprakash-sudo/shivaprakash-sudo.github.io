@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
 }
 
 body, html {
@@ -26,6 +27,7 @@ nav {
 main {
     padding: 3em;
     background-color: bisque;
+    box-sizing: border-box;
 }
 
 .content-container {
@@ -36,6 +38,7 @@ main {
     border-radius: 12px;
     padding: 24px;
     background-color: white;
+    box-sizing: border-box;
 }
 
 .main-para {
@@ -74,4 +77,27 @@ main {
 
 #parallax-3 {
     background-image: url(https://images.unsplash.com/photo-1482569020076-99150e41169b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80);
+}
+
+@media screen and (max-width:900px) {
+    #site-heading {
+        font-size: 2em;
+    }
+    
+    main {
+        padding: 1em;
+    }
+    
+    .content-container {
+        width: 100%;
+    }
+
+    .main-para {
+        font-size: 16px;
+    }
+
+    .section-para p {
+        font-size: 16px;
+    }
+
 }
