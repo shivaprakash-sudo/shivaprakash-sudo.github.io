@@ -15,8 +15,12 @@ body {
 }
 
 .container {
+    width: 85%;
+    padding: 1rem;
     display: flex;
     flex-flow: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #heading {

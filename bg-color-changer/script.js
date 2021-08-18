@@ -5,9 +5,11 @@ const hex_val = document.querySelector("#hex-val")
 const symbols = "0123456789ABCDEF";
 const symbolsArray = symbols.split("");
 
+hex_val.textContent = "#696969";
+
 btn.addEventListener("click", (e) => {
     body.style.backgroundColor = colorGenerator();
-    hex_val.textContent = `${colorGenerator()}`
+    hex_val.textContent = `${colorGenerator()}`;
 })
 
 function colorGenerator() {
