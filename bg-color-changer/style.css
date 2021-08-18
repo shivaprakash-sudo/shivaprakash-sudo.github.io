@@ -14,15 +14,27 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
-.heading {
+.container {
+    display: flex;
+    flex-flow: column;
+}
+
+#heading {
     font-size: 3rem;
+    margin-bottom: 2rem;
 }
 
 .btn {
     padding: 1rem 1.5rem;
     font-size: 1.3rem;
     background: transparent;
-    border: 1px solid #ccc;
+    border: none;
     border-radius: 6px;
     color: #fff;
+    box-shadow: 2px 2px 8px #000;
+}
+
+#hex-val {
+    color: #ccc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
