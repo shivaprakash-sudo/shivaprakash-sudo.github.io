@@ -1,17 +1,25 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Google.com Look-Alike</title>
-        <link href="style.css" rel="stylesheet" type="text/css" >
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    </head>
-    <body>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Google</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <header>
         <nav>
-            <span class="menu-item">Gmail</span>
-            <span class="menu-item">Images</span>
+
+            <a href="https://mail.google.com/mail" class="menu-item" target="_blank">Gmail</a>
+
+            <a href="https://photos.google.com/" class="menu-item" target="_blank">Images</a>
+
             <div id="apps">
+
                 <i id="dropdown-menu" class="material-icons">apps</i>
+
                 <div id="dropdown-menu-card">
                     <div class="app-item">
                         <img src="http://pluspng.com/img-png/google-logo-png-open-2000.png" alt="Google logo" />
@@ -39,18 +47,26 @@
                     </div>
                 </div>
             </div>
+
             <img id="menu-item-image" src="https://lh3.googleusercontent.com/ogw/ADGmqu_xeqZCtzgTaefP8LyT2jY6-sZz5FsKQwFJ9lII=s32-c-mo" alt="profile-image" />
+
         </nav>
-        <main>
-            <section>
+    </header>
+    <main>
+        <section class="container">
+            <div>
                 <img id="main-image" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Image" /><br/>
+            </div>
+            <div class="search-container">
                 <input id="search-bar" type="search" name="search">
                 <img id="voice-icon" src="https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png" alt="Voice Search Icon" />
-                <div id="button-container">
-                    <button class="button">Google Search</button>
-                    <button class="button">I'm Feeling Lucky</button>
-                </div>
-            </section>
-        </main>
-    </body>
+            </div>
+            <div id="button-container">
+                <button class="button">Google Search</button>
+                <button class="button">I'm Feeling Lucky</button>
+            </div>
+        </section>
+    </main>
+</body>
+
 </html>
