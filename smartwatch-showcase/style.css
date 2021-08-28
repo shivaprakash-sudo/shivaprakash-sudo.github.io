@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* navbar styling */
+
+nav {
+    background: #232f3e;
+    text-align: center;
+}
+
+.logo {
+    width: 10em;
+    padding: 1.5em 1em 1em;
+}
+
+
+/* main content styling */
+
+.container {
+    max-width: 45%;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.description h1 {
+    font-size: 48px;
+    margin-bottom: 0;
+}
+
+.btn {
+    border: none;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+
+.color-btn {
+    padding: 2em 2.5em;
+    margin-right: 0.7em;
+}
+
+.black-btn {
+    background: #000;
+}
+
+.pink-btn {
+    background: #cf17b1;
+}
+
+.red-btn {
+    background: #cc1212;
+}
+
+.purple-btn {
+    background: #800080;
+}
+
+.features {
+    margin-bottom: 1.5em;
+}
+
+.feature-btn {
+    padding: 0.7em 1em;
+    font-size: 16px;
+    background: #ccc;
+    margin-right: 0.8em;
+}
+
+.buy-btn {
+    padding: 1em 2em;
+    font-size: 21px;
+    background: #ef8e1c;
+}
