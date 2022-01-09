@@ -2,4 +2,4 @@
 
 <p>Click below to check it out</p>
 
-[Calculator](https://shivaprakash-sudo.github.io/simple_calculator/)
+[Calculator](https://shivaprakash-sudo.github.io/simple-calculator/)

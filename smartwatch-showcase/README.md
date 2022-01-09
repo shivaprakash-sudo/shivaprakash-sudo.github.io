@@ -1,4 +1,4 @@
-#Smartwatch showcase
+# Smartwatch showcase
 
 This is webpage to showcase a mockup smartwatch checkout.
 
