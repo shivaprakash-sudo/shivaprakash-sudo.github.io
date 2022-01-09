@@ -1,0 +1,1 @@
+Inspired from w3schools canvas clock
