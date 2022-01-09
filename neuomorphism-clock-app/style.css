@@ -55,7 +55,7 @@ body::before {
     bottom: 10px;
     left: 10px;
     right: 10px;
-    background: radial-gradient(transparent, rgba(255, 255, 255, 0.2)), url("/neuomorphism_clock_app/resources/clock.png");
+    background: radial-gradient(transparent, rgba(255, 255, 255, 0.2)), url("/resources/clock.png");
     background-size: cover;
     z-index: 3;
     border-radius: inherit;
