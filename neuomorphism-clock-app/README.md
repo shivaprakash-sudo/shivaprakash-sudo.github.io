@@ -2,7 +2,7 @@ This is an analog clock made using HTML, CSS and JS
 
 Click below link to see it in action.
 
-[Analog Clock](https://shivaprakash-sudo.github.io/neuomorphism_clock_app/)
+[Analog Clock](https://shivaprakash-sudo.github.io/neuomorphism-clock-app/)
 
 <strong>References:</strong>
 <br>
