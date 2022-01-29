@@ -1,6 +1,6 @@
 # Hello There
 The folders in this repository are my fun projects, you can contribute or add your own styles to them. 
-You can checkout the brief descriptions of the projects below, but if you want to see them in action, go to the individual repository, where you can find the link to live site.
+You can checkout the brief descriptions of the projects below, and if you want to see them in action, just click on the respective headings to check them out.
 I will be adding new projects whenever I'm free.
 
 <strong>1. [google-replica](https://shivaprakash-sudo.github.io/google-replica/)</strong>  
