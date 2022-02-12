@@ -47,8 +47,17 @@ nav {
 }
 
 .color-btn {
-    padding: 2em 2.5em;
+    padding: 1.5em;
     margin-right: 0.7em;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.blue-btn {
+    background: #565681;
 }
 
 .black-btn {
@@ -79,8 +88,8 @@ nav {
 }
 
 .buy-btn {
-    padding: 1em 2em;
-    font-size: 1.3125rem;
+    padding: 0.7em 1.5em;
+    font-size: 1.7rem;
     background: #ef8e1c;
 }
 
